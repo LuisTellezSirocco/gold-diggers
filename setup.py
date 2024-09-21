@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 install_requires = (this_directory / "requirements.txt").read_text().splitlines()
 
 # get version
-with open("pyatmo/__init__.py") as f:
+with open("pygold/__init__.py") as f:
     for line in f:
         if line.startswith("__version__"):
             _, _, version = line.replace("'", "").split()
