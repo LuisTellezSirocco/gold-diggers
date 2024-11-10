@@ -4,3 +4,4 @@ plotly
 yfinance
 jupyter
 eurostat
+bt
